@@ -1,10 +1,10 @@
 # bio-chatbot
 
-A short description of the project
+Chat-bot project Using Bio-GPT Model
 
 ## Development Requirements
 
-- Python3.11.0
+- Python3.11.0 or Conda (I'm using conda env)
 - Pip
 - Poetry (Python Package Manager)
 
@@ -129,3 +129,4 @@ Deploying inference service to AWS Lambda
 
 
 Made by https://github.com/arthurhenrique/cookiecutter-fastapi/graphs/contributors with ❤️
+and Bio-GPT

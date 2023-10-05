@@ -127,5 +127,5 @@ Deploying inference service to AWS Lambda
 `aws cloudformation delete-stack --stack-name <STACK_NAME_ON_CREATION>`
 
 
-Made by https://github.com/arthurhenrique/cookiecutter-fastapi/graphs/contributors with ❤️
+Made by https://github.com/arthurhenrique/cookiecutter-fastapi/graphs/contributors
 and Bio-GPT

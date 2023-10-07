@@ -10,10 +10,7 @@ Chat-bot project Using Bio-GPT Model
 
 ### M.L Model Environment
 
-```sh
-MODEL_PATH=./ml/model/
-MODEL_NAME=model.pkl
-```
+- BIO-Gpt normal version
 
 ### Update `/predict`
 

@@ -1,4 +1,9 @@
-SHELL := /bin/bash 
+SHELL := /bin/bash
+
+# 만약 쉘이 zsh인 경우, SHELL 변수를 zsh로 변경
+ifneq (,$(findstring zsh,$(SHELL)))
+SHELL := /bin/zsh
+endif
 
 # Variables definitions
 # -----------------------------------------------------------------------------

@@ -7,9 +7,11 @@ class MachineLearningResponse(BaseModel):
     prediction: float
 
 
-class HealthResponse(BaseModel):
+class HealthResponse():
     status: bool
 
+class check:
+    health: bool
 
 class MachineLearningDataInput(BaseModel):
     feature1: float

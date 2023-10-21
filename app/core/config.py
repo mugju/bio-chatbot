@@ -16,7 +16,7 @@ MAX_CONNECTIONS_COUNT: int = config("MAX_CONNECTIONS_COUNT", cast=int, default=1
 MIN_CONNECTIONS_COUNT: int = config("MIN_CONNECTIONS_COUNT", cast=int, default=10)
 SECRET_KEY: Secret = config("SECRET_KEY", cast=Secret, default="")
 
-PROJECT_NAME: str = config("PROJECT_NAME", default="bio-chatbot")
+PROJECT_NAME: str = config("PROJECT_NAME", default="bio-chatbot.py")
 
 # logging configuration
 LOGGING_LEVEL = logging.DEBUG if DEBUG else logging.INFO

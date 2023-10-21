@@ -39,3 +39,4 @@ class MachineLearningModelHandlerScore(object):
             logger.error(message)
             raise ModelLoadException(message)
         return model
+

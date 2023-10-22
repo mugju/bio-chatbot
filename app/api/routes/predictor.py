@@ -1,14 +1,15 @@
+import os
+import sys
+sys.path.append(os.path.dirname(os.path.abspath(os.path.dirname(__file__))))
 
 from fastapi import APIRouter, HTTPException
 
-from core.config import INPUT_EXAMPLE
-from services.predict import MachineLearningModelHandlerScore as model
-from models.prediction import (
+from app.services.chatbot import BioChatBotHandler as chatbot
+from app.models.prediction import (
     HealthResponse,
     MachineLearningResponse,
     MachineLearningDataInput,
 )
-
 router = APIRouter()
 
 
@@ -33,15 +34,14 @@ async def check():
     "/question",
     name="chat-bot:response-data",
 )
-async def predict(data_input: MachineLearningDataInput):
+async def predict(data_input):
 
     if not data_input:
         raise HTTPException(status_code=404, detail="'data_input' argument invalid!")
     try:
         data_point = data_input.get_np_array()
-        prediction = get_prediction(data_point)
 
     except Exception as err:
         raise HTTPException(status_code=500, detail=f"Exception: {err}")
 
-    return MachineLearningResponse(prediction=prediction)
+    return chatbot.create_answer(data_input)

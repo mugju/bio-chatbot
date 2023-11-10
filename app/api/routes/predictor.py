@@ -13,9 +13,6 @@ from app.models.prediction import (
 router = APIRouter()
 
 
-## Change this portion for other types of models
-## Add the correct type hinting when completed
-
 @router.get(
     "/check",
 )

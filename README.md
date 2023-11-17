@@ -11,7 +11,7 @@ Chat-bot project Using Bio-GPT Model
 ### M.L Model Environment
 
 - BIO-Gpt normal version
-
+*빅 모델의 경우 M1환경에서 돌아가지 않아 사용하지 않음. 
 ### Update `/predict`
 
 

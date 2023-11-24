@@ -125,4 +125,4 @@ Deploying inference service to AWS Lambda
 
 
 Made by https://github.com/arthurhenrique/cookiecutter-fastapi/graphs/contributors
-and Bio-GPT
+and Bio-GPT and V0.dev (fe)

@@ -10,7 +10,8 @@ class BioChatBotHandler(object):
         tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
         model = BioGptForCausalLM.from_pretrained("microsoft/biogpt")
 
-        sentence = "CDISC is"
+        # question form : the [question] is ~~~~
+        sentence = question
         inputs = tokenizer(sentence, return_tensors="pt")
 
         set_seed(42)

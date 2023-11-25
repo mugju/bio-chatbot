@@ -126,3 +126,8 @@ Deploying inference service to AWS Lambda
 
 Made by https://github.com/arthurhenrique/cookiecutter-fastapi/graphs/contributors
 and Bio-GPT and V0.dev (fe)
+
+
+++추가 사항 
+- 배포 봇 사용할 것.
+- 

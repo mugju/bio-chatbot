@@ -130,4 +130,4 @@ and Bio-GPT and V0.dev (fe)
 
 ++추가 사항 
 - 배포 봇 사용할 것.
-- 
+- npx v0 add DYOzBho3a2l

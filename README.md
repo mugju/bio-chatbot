@@ -4,7 +4,7 @@ Chat-bot project Using Bio-GPT Model
 
 ## Development Requirements
 
-- Python3.11.0 or Conda (I'm using conda env)
+- Python3.11.0
 - Pip
 - Poetry (Python Package Manager)
 
